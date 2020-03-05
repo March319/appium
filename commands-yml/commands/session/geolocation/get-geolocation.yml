@@ -8,7 +8,7 @@ example_usage:
       Location location = driver.location(); // Must be a driver that implements LocationContext
   python:
     |
-      location = self.driver.location()
+      location = self.driver.location
   javascript_wdio:
     |
       let location = driver.getGeoLocation();
